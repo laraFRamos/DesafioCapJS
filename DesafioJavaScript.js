@@ -1,14 +1,14 @@
 const pessoas = [
 
-    {nome: "Beatriz" , idade: 20},
-    {nome: "Lara" , idade: 19},
+    {nome: "Beatriz" , idade: 19},
+    {nome: "Lara" , idade: 20},
     {nome: "Gustavo" , idade: 19},
-    {nome: "Bruna" , idade: 25},
-    {nome: "Brenda" , idade: 20},
+    {nome: "Laura" , idade: 25},
+    {nome: "Larissa" , idade: 20},
     {nome: "Sofia" , idade: 25},
-    {nome: "Breno" , idade: 20},
+    {nome: "Leonardo" , idade: 20},
     {nome: "João" , idade: 40},
-    {nome: "Bernardo" , idade: 30},
+    {nome: "Lucas" , idade: 30},
     {nome: "Daniela" , idade: 20},
 
 ]
@@ -17,7 +17,7 @@ let i = 0
 let somaIdades = 0
 let contador = 0
 let mediaIdades = 0
-const letra = "B"
+const letra = "L"
 const nomesB = []
 
 
