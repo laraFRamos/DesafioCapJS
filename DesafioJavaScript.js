@@ -18,7 +18,7 @@ let somaIdades = 0
 let contador = 0
 let mediaIdades = 0
 const letra = "L"
-const nomesB = []
+const nomesL = []
 
 
 for(i; i < pessoas.length; i++) {
@@ -28,7 +28,7 @@ for(i; i < pessoas.length; i++) {
 
     if( nome[0] === letra) {
 
-        nomesB.push(nome)
+        nomesL.push(nome)
         somaIdades += idade
         contador++
 
@@ -37,5 +37,5 @@ for(i; i < pessoas.length; i++) {
 
 mediaIdades = somaIdades / contador
 
-console.log(`Nomes que começam com a letra B: ${nomesB}`);
-console.log(`Média das idades das pessoas que começam com B: ${mediaIdades}`);
+console.log(`Nomes que começam com a letra L: ${nomesL}`);
+console.log(`Média das idades das pessoas que começam com L: ${mediaIdades}`);
